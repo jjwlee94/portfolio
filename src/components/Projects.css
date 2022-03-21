@@ -1,0 +1,10 @@
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 85vw;
+  color: #7fdbca;
+  background-color: #021627;
+}

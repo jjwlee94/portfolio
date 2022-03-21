@@ -1,6 +1,25 @@
 .main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
-  width: 80vw;
+  width: 85vw;
   color: #7fdbca;
-  /* background-color: #021627; */
+  background-color: #021627;
+}
+
+.profile-image {
+  background-image: url("../docs/mac-profile-image.png");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
+
+.profile-image:hover {
+  background-image: url("../docs/hello-profile-image.png");
+}
+
+#first-name {
+  color: #db7f90;
 }

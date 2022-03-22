@@ -73,3 +73,33 @@ a#icon-links {
 a#icon-links:hover {
   color: #db7f90;
 }
+
+@media screen and (max-width: 700px) {
+  .navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    height: 15vh;
+    width: 100vw;
+    border-right: solid;
+    border-width: 1px;
+    color: #7fdbca;
+    background-color: #021627;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .navbar-section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #section-title {
+    display: none;
+  }
+
+  .contact-links {
+    display: none;
+  }
+}

@@ -1,8 +1,9 @@
-.intro-container {
+.projects-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-left: 15vw;
   height: 100vh;
   width: 85vw;
   color: #7fdbca;

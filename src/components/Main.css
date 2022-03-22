@@ -104,6 +104,10 @@ h1#stack-title {
   margin-left: 10px;
 }
 
+span#stack-title {
+  color: #db7f90;
+}
+
 .languages {
   display: flex;
   flex-direction: row;

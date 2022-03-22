@@ -8,4 +8,50 @@
   width: 85vw;
   color: #7fdbca;
   background-color: #021627;
+  font-family: "Raleway", sans-serif;
+}
+
+.projects-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+h1#projects-title {
+  margin-left: 10px;
+}
+
+span#projects-title {
+  color: #db7f90;
+}
+
+.project-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-card {
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+}
+
+a#project-link {
+  text-decoration: none;
+}
+
+img#project-image {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.project-title {
+  padding: 10px;
+  color: #021627;
+  text-align: center;
+}
+
+.project-title:hover {
+  color: #db7f90;
 }

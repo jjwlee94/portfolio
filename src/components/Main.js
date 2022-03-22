@@ -70,7 +70,9 @@ const Main = () => {
       <div className="profile-stack" ref={stackSection}>
         <div className="stack-title">
           <SiBookstack fontSize={30} />
-          <h1 id="stack-title">My Stack</h1>
+          <h1 id="stack-title">
+            My <span id="stack-title">Stack</span>
+          </h1>
         </div>
         <div className="stack-cards">
           <div className="languages">

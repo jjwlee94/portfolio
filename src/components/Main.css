@@ -7,6 +7,7 @@
   width: 85vw;
   color: #7fdbca;
   background-color: #021627;
+  font-family: "Raleway", sans-serif;
 }
 
 .intro-container {
@@ -20,6 +21,7 @@
 .main-title {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .profile-image {
@@ -48,10 +50,20 @@
   color: #db7f90;
 }
 
+#profile-text {
+  display: flex;
+  align-items: center;
+}
+
+#profile-icon {
+  margin-left: 10px;
+}
+
 .arrow {
   margin-top: 25%;
   margin-bottom: -25%;
 }
+
 .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
@@ -73,7 +85,11 @@
     transform: translateY(-15px);
   }
 }
+
 .profile-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 100vh;
 }
 
@@ -84,7 +100,7 @@
   align-items: center;
 }
 
-h2#stack-title {
+h1#stack-title {
   margin-left: 10px;
 }
 

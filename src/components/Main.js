@@ -24,8 +24,8 @@ import {
   SiGooglecloud,
   SiGit,
 } from "react-icons/si";
-
 import { BsChevronDoubleDown } from "react-icons/bs";
+import { FaLaptopCode, FaCanadianMapleLeaf } from "react-icons/fa";
 
 // Stylesheet
 import "./Main.css";
@@ -43,16 +43,24 @@ const Main = () => {
 
   return (
     <div className="main-container">
-      <div className="intro-container">
+      <div className="intro-container" ref={introSection}>
         <div className="main-title">
           <div className="profile-image" />
           <div className="profile-description">
             <h1>
               Hi there, my name is <span id="first-name">Jeewon</span>
             </h1>
-            <h2>and I'm a Full Stack Developer</h2>
+            <h2 id="profile-text">
+              I'm a Full Stack Developer
+              <FaLaptopCode id="profile-icon" color="grey" />
+            </h2>
+            <h2 id="profile-text">
+              from Toronto, Canada
+              <FaCanadianMapleLeaf id="profile-icon" color="red" />
+            </h2>
           </div>
         </div>
+
         <BsChevronDoubleDown
           className="arrow bounce"
           onClick={() => scrollDown(stackSection)}
@@ -62,7 +70,7 @@ const Main = () => {
       <div className="profile-stack" ref={stackSection}>
         <div className="stack-title">
           <SiBookstack fontSize={30} />
-          <h2 id="stack-title">My Stack</h2>
+          <h1 id="stack-title">My Stack</h1>
         </div>
         <div className="stack-cards">
           <div className="languages">

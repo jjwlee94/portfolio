@@ -59,6 +59,20 @@
   margin-left: 10px;
 }
 
+#profile-sns {
+  display: none;
+}
+
+.stack-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.stack-cards {
+  display: flex;
+  flex-direction: row;
+}
+
 .arrow {
   margin-top: 25%;
   margin-bottom: -25%;
@@ -134,7 +148,7 @@ span#stack-title {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   .main-container {
     margin-top: 10vh;
     margin-left: 0;
@@ -164,11 +178,17 @@ span#stack-title {
     align-items: center;
   }
 
+  #sns-link {
+    color: #7fdbca;
+  }
+
   #sns-icons {
     margin-left: 10px;
   }
 
-  .profile-stack {
+  .stack-section {
+    display: flex;
+    flex-direction: column;
     overflow-y: auto;
   }
 

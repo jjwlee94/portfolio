@@ -19,17 +19,17 @@ const Nav = () => {
       <div className="navbar-section">
         <div id="section-title">Navigate To</div>
         <a href="/" id="section-links">
-          <AiFillHome fontSize={20} />
+          <AiFillHome id="nav-icon" fontSize={20} />
           <p id="section-text">Home</p>
         </a>
         <a href="/projects" id="section-links">
-          <AiFillCode fontSize={20} />
+          <AiFillCode id="nav-icon" fontSize={20} />
           <p id="section-text">Projects</p>
         </a>
         <a
           href="https://resume.creddle.io/resume/69v9kw3qbcm"
           id="section-links">
-          <AiFillIdcard fontSize={20} />
+          <AiFillIdcard id="nav-icon" fontSize={20} />
           <p id="section-text">Resume</p>
         </a>
       </div>

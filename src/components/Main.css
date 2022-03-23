@@ -89,7 +89,6 @@
 .profile-stack {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   height: 100vh;
 }
 
@@ -98,6 +97,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding: 50px;
 }
 
 h1#stack-title {
@@ -106,30 +106,6 @@ h1#stack-title {
 
 span#stack-title {
   color: #db7f90;
-}
-
-.languages {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.frameworks-libraries {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.testing {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.databases-systems {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 
 #stack-icon {
@@ -156,4 +132,59 @@ span#stack-title {
 #stack-name {
   margin: 10px;
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .main-container {
+    margin-top: 10vh;
+    margin-left: 0;
+    width: 100vw;
+  }
+
+  .intro-container {
+    height: 90vh;
+  }
+
+  .main-title {
+    flex-direction: column;
+  }
+
+  .profile-image {
+    margin-right: 0;
+  }
+
+  .profile-description {
+    margin: 10px;
+    font-size: 70%;
+  }
+
+  #profile-sns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #sns-icons {
+    margin-left: 10px;
+  }
+
+  .profile-stack {
+    overflow-y: auto;
+  }
+
+  .stack-title {
+    margin-top: 10vh;
+    padding: 20px;
+  }
+
+  .stack-cards {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #stack-icon {
+    height: 70px;
+    width: 90px;
+    font-size: x-small;
+  }
 }
